@@ -1,3 +1,5 @@
+/* slide */
+
 const button = document.querySelector('button');
 const hero = document.querySelector('.hero')
 const interval = 3000
@@ -38,7 +40,7 @@ hero.addEventListener('transitionend', () => {
     }
 })
 
-/* */
+/* validasi */
 
 function validateForm() {
     var name = document.forms["myForm"]["name"].value;
@@ -46,20 +48,20 @@ function validateForm() {
     var select = document.forms["myForm"]["interest"].value;
   
     if (name == "") {
-      alert("Masukkan Nama");
+      alert("Masukkan Nama Anda");
       return false;
     }
   
     if (email == "") {
-      alert("Masukkan Email");
+      alert("Masukkan Email Anda");
       return false;
     }
   
     if (select == "") {
-      alert("Tolong Pilih Opsi");
+      alert("Pilih Opsi");
       return false;
     }
   
-    alert("Form Sukses Diisi");
+    alert("Form Berhasil Diisi");
     return true;
   }

@@ -5,6 +5,10 @@
     --background1: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     overflow-x: hidden;
     display: flex;
@@ -196,7 +200,6 @@ h1, h2{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
 
 .pengguna{
@@ -211,7 +214,6 @@ h1, h2{
 }
 
 .pengguna-img img{
-
     border-radius: 10px;
 }
 
@@ -223,7 +225,6 @@ h1, h2{
 }
 
 .info-user{
-    
     display: flex;
     align-items: center;
 }
@@ -233,8 +234,6 @@ h1, h2{
     display: flex;
     width: 282px;
 }
-
-
 
 /* konten bawah */
 
@@ -253,7 +252,6 @@ h1, h2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .text-bawah-gambar p{
@@ -280,7 +278,6 @@ h1, h2{
 }
 
 /* konten kanan */
-
 
 .konten-kanan{
     width: 30vw;
